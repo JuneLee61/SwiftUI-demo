@@ -13,6 +13,11 @@
 		F49A312824874BD200CA5B7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F49A312724874BD200CA5B7C /* Assets.xcassets */; };
 		F49A312B24874BD200CA5B7C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F49A312A24874BD200CA5B7C /* Preview Assets.xcassets */; };
 		F49A312E24874BD200CA5B7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F49A312C24874BD200CA5B7C /* LaunchScreen.storyboard */; };
+		F49A3138248750BF00CA5B7C /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49A3137248750BF00CA5B7C /* CircleImage.swift */; };
+		F49A313A2487729200CA5B7C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49A31392487729200CA5B7C /* MapView.swift */; };
+		F49A313C248788AA00CA5B7C /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49A313B248788AA00CA5B7C /* EditView.swift */; };
+		F49A313E2487890400CA5B7C /* MKPointAnnotation-Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49A313D2487890400CA5B7C /* MKPointAnnotation-Observable.swift */; };
+		F49A3142248795D700CA5B7C /* CodableMKPointAnnotation-Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49A3141248795D700CA5B7C /* CodableMKPointAnnotation-Codable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		F49A312A24874BD200CA5B7C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F49A312D24874BD200CA5B7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F49A312F24874BD200CA5B7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F49A3137248750BF00CA5B7C /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		F49A31392487729200CA5B7C /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		F49A313B248788AA00CA5B7C /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		F49A313D2487890400CA5B7C /* MKPointAnnotation-Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKPointAnnotation-Observable.swift"; sourceTree = "<group>"; };
+		F49A3141248795D700CA5B7C /* CodableMKPointAnnotation-Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CodableMKPointAnnotation-Codable.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +69,11 @@
 				F49A312124874BCF00CA5B7C /* AppDelegate.swift */,
 				F49A312324874BCF00CA5B7C /* SceneDelegate.swift */,
 				F49A312524874BCF00CA5B7C /* ContentView.swift */,
+				F49A3141248795D700CA5B7C /* CodableMKPointAnnotation-Codable.swift */,
+				F49A313B248788AA00CA5B7C /* EditView.swift */,
+				F49A3137248750BF00CA5B7C /* CircleImage.swift */,
+				F49A31392487729200CA5B7C /* MapView.swift */,
+				F49A313D2487890400CA5B7C /* MKPointAnnotation-Observable.swift */,
 				F49A312724874BD200CA5B7C /* Assets.xcassets */,
 				F49A312C24874BD200CA5B7C /* LaunchScreen.storyboard */,
 				F49A312F24874BD200CA5B7C /* Info.plist */,
@@ -147,8 +162,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F49A312224874BCF00CA5B7C /* AppDelegate.swift in Sources */,
+				F49A3138248750BF00CA5B7C /* CircleImage.swift in Sources */,
+				F49A313C248788AA00CA5B7C /* EditView.swift in Sources */,
+				F49A313A2487729200CA5B7C /* MapView.swift in Sources */,
+				F49A313E2487890400CA5B7C /* MKPointAnnotation-Observable.swift in Sources */,
 				F49A312424874BCF00CA5B7C /* SceneDelegate.swift in Sources */,
 				F49A312624874BCF00CA5B7C /* ContentView.swift in Sources */,
+				F49A3142248795D700CA5B7C /* CodableMKPointAnnotation-Codable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
